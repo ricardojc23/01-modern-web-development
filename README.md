@@ -134,8 +134,9 @@ After being *transpiled* our code can be *minified* and *bundled* to produce the
   * Process files
   * General scripting
 * We will use it to run our build tasks (general scripting!) (the react code we write will _not_ be running on a server, it will only be running in the browser as static files!)
+* We can run node programs from the command line: `node filename.js`
 
----
+----
 
 ## NPM
 
