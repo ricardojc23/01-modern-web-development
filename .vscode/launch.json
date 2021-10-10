@@ -1,0 +1,35 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch 02-convert-to-es6 app",
+            "program": "${workspaceFolder}/exercises/02-convert-to-es6/people-functions.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "pwa-node"
+        },
+        {
+            "name": "Launch 03-dependencies index",
+            "program": "${workspaceFolder}/exercises/03-dependencies/index.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "pwa-node"
+        },
+        {
+            "type": "pwa-node",
+            "request": "launch",
+            "name": "Launch 01-es6-modules index",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/exercises/01-es6-modules/index.js"
+        }
+    ]
+}
